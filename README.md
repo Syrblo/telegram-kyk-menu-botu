@@ -54,7 +54,7 @@ Kullanıcılar bugünün veya yarının menüsünü görüntüleyebilir, istedik
 
 ```bash
 git clone https://github.com/Syrblo/telegram-kyk-menu-botu.git
-cd kyk-yemek-botu
+cd telegram-kyk-menu-botu
 ```
 
 ### 2. Sanal ortam oluşturun
@@ -87,7 +87,7 @@ Proje klasöründe `.env` adında bir dosya oluşturun:
 
 ```env
 KYK_BOT_TOKEN=telegram_bot_tokeniniz
-KYK_MENU_URL=https://raw.githubusercontent.com/Syrblo/kyk-yemek-botu/main/liste.json
+KYK_MENU_URL=https://raw.githubusercontent.com/Syrblo/kyk-yemek-botu/main/kyk_yemek.json
 ```
 
 Telegram bot tokenını Telegram’daki [BotFather](https://t.me/BotFather) üzerinden oluşturabilirsiniz.
@@ -183,4 +183,3 @@ Bir bot tokenı yanlışlıkla GitHub’a yüklenirse yalnızca dosyadan silmek 
 
 Hata bildirimleri, geliştirme önerileri ve pull request’ler açıktır.
 
-Menü verilerindeki hatalar için `liste.json` dosyasını düzenleyerek katkıda bulunabilirsiniz.
