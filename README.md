@@ -110,7 +110,7 @@ Botun kanala mesaj gönderebilmesi için ilgili kanalda yönetici olması gereki
 
 ## Menü Listesi
 
-Menüler GitHub deposundaki `liste.json` dosyasında tutulur. Tarihler `AA-GG` biçiminde yazılır.
+Menüler GitHub deposundaki `kyk_yemek.json` dosyasında tutulur. Tarihler `AA-GG` biçiminde yazılır.
 
 Örnek:
 
@@ -150,7 +150,7 @@ Botun sunucu yeniden başlatıldığında otomatik olarak çalışması için `s
 ```text
 kyk-yemek-botu/
 ├── kykBot.py          # Botun ana Python kodu
-├── liste.json         # GitHub üzerinden yayınlanan menü listesi
+├── kyk_yemek.json         # GitHub üzerinden yayınlanan menü listesi
 ├── requirements.txt   # Python bağımlılıkları
 ├── .env.example       # Örnek ortam değişkenleri
 ├── .gitignore         # GitHub'a yüklenmeyecek dosyalar
